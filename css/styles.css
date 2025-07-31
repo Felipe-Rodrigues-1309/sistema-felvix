@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*inicio botao abrir mesa*/
+.abrirMesa{
+    text-align: center;
+    margin-top: 175%;
+}
+/*final botao abrir mesa*/
+
+/* incio Card*/
+.card-Link-1{
+    color: white;
+    background-color: rgb(19, 90, 212);
+    width: 80%;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+/* Container para os cards */
+.cards-container1 {
+    display: flex;
+    justify-content: center; /* centraliza os cards horizontalmente */
+    gap: 20px; /* espaço entre os cards */
+    margin-top: 40px; /* ajuste conforme necessário */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*inicio label e inuts dos cards*/
+
+/*fina cards */
