@@ -1,0 +1,18 @@
+* {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Inclui borda e preenchimento no tamanho total */
+}
+
+.h1Produtos{
+    text-align: center;
+}
+
+.adicionarItens{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 180%;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 3px;
+}
