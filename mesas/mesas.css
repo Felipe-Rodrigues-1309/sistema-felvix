@@ -4,8 +4,16 @@
     box-sizing: border-box; /* Inclui borda e preenchimento no tamanho total */
 }
 
-.h1Produtos{
+nav{
     text-align: center;
+    padding: 10px;
+    background-color: #00ff00;
+}
+
+.imgSeta{
+    position: absolute;
+    margin-left: -49%;
+    margin-top: -10px;
 }
 
 #adicionarItens{
