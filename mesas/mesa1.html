@@ -28,13 +28,38 @@
 </nav>
 <!--final nav bar-->
 
+<!--inicio modal-->
+
+<!-- Estrutura do Modal -->
+<div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="meuModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="meuModalLabel">Título do Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        Conteúdo do modal aqui.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- final Estrutura do Modal -->
+
 <!--inicio container-->
 <div class="container-fluid">
   <h1 class="h1Produtos">Produtos</h1>
 </div>
 
 <div class="adicionarItens">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal" id="adicionarItens">
   Adicionar Itens
+</button>
 </div>
+
 </body>
 </html>
