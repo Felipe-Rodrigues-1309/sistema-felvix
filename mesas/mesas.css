@@ -6,8 +6,9 @@
 
 nav{
     text-align: center;
-    padding: 0%;
-    color: black;
+    padding: 1px;
+    background-color: black;
+    color: white;
 }
 
 .imgSeta{
@@ -16,7 +17,7 @@ nav{
     margin-top: 4px;
 }
 
-#adicionarItens{
+#adicionarItens{  /* botao adicionar intens*/
     display: block;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
