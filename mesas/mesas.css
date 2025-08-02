@@ -6,7 +6,7 @@
 
 nav{
     text-align: center;
-    padding: 1px;
+    padding: 0%;
     background-color: darkgray;
     color: white;
 }
@@ -14,7 +14,7 @@ nav{
 .imgSeta{
     position: absolute;
     margin-left: -48%;
-    margin-top: 5px;
+    margin-top: 4,1px;
 }
 
 #adicionarItens{
