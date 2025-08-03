@@ -9,36 +9,41 @@
     <title>Página Inicial</title>
 </head>
 <body>
-    <!--inicio nav bar-->
+    <!-- Início da barra de navegação -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="barraDeNavegacao">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-      </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim da barra de navegação -->
+
+    <!-- Início dos cards -->
+    <div class="cards-container1">
+        <a href="mesas/mesa1.html" class="card-Link-1">
+            <div class="card1">
+                <h1>Mesa 11</h1>
+                <label for="totalLabel">Total:</label>
+                <input type="number" class="totalInput">
+            </div>
+        </a>
     </div>
-  </div>
-</nav>
-<!--final nav bar-->
+    <!-- Fim dos cards -->
 
-<!--inicio card-->
-<div class="cards-container1">
-   <a href="mesas/mesa1.html" class="card-Link-1"><div class="card1">
-    <h1>Mesa 11</h1>
-    <label for="totalLabel">Total:</label>
-    <input type="number" class="totalInput">
-  </div></a>
-</div>
-
-<!--final cards-->
-
-<div class="abrirMesa"><img src="img/adicionar.png" width="100px"></div>
+    <!-- Botão para abrir mesa -->
+    <div class="abrirMesa">
+        <img src="img/adicionar.png" width="100px" alt="Adicionar Mesa">
+    </div>
+    <!-- Fim do botão abrir mesa -->
 </body>
 </html>
