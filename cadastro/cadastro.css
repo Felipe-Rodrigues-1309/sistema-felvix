@@ -1,0 +1,18 @@
+* {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Inclui borda e preenchimento no tamanho total */
+}
+
+nav{
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+    color: white;
+}
+
+.imgSeta{
+    position: absolute;
+    margin-left: -48%;
+    margin-top: 4px;
+}
