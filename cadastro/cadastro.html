@@ -15,7 +15,37 @@
             <img src="/img/seta.png" alt="seta" width="30px" class="imgSeta">
         </a>
         <h1>Cadastro</h1>
-        <!-- Será preciso que ao abrir a mesa o número da mesa seja o número da mesa aberta, será preciso criar uma função -->
     </nav>
+
+        <!-- Início do Modal -->
+    <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="meuModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="meuModalLabel">Cadastrar item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="" class="labelNome">Nome:</label>
+                    <input type="text" class="inputNome">
+
+                    <label for="" class="labelValor">Valor:</label>
+                    <input type="number" class="inputValor">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Modal -->
+
+        <!-- Botão para adicionar itens -->
+    <div class="adicionarItens">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal" id="adicionarItens">
+            Adicionar Itens
+        </button>
+        <!--final botão para adicionar intens-->
 </body>
 </html>
