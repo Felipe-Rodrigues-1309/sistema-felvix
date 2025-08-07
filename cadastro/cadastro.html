@@ -18,7 +18,7 @@
     </nav>
 
         <!-- Início do Modal -->
-         <form> <!--inicio formulario-->
+         <form action="inserir.php" method="post"> <!--inicio formulario-->
     <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="meuModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -28,10 +28,10 @@
                 </div>
                 <div class="modal-body">
                     <label for="" class="labelNome">Nome:</label>
-                    <input type="text" class="inputNome">
+                    <input type="text" class="inputNome" required name="nome" id="nome">
 
                     <label for="" class="labelValor">Valor:</label>
-                    <input type="number" class="inputValor">
+                    <input type="number" class="inputValor" required name="valor" id="valor">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
