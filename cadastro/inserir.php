@@ -2,7 +2,7 @@
 // Conectar ao banco
 $host = "localhost";
 $usuario = "u386257710_felipe";
-$senha = "g;Q6iucN>";
+$senha = "Ome[8^Bp";
 $banco = "u386257710_cadastro";
 
 $conn = new mysqli($host, $usuario, $senha, $banco);
