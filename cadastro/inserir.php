@@ -1,9 +1,9 @@
 <?php
 // Conectar ao banco
-$host = "127.0.0.1";
-$usuario = "root";
-$senha = "52461309";
-$banco = "cadastro_de_produtos";
+$host = "localhost";
+$usuario = "u386257710_felipe";
+$senha = "g;Q6iucN>";
+$banco = "u386257710_cadastro";
 
 $conn = new mysqli($host, $usuario, $senha, $banco);
 
